@@ -22,7 +22,6 @@ public class CategoriaResource {
 		
 		
 		Categoria cat = service.find(id);
-		
 		return ResponseEntity.ok().body(cat);
 		
 	
