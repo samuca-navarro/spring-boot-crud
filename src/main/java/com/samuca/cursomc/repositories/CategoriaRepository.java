@@ -8,7 +8,6 @@ import com.samuca.cursomc.domain.Categoria;
 @Repository
 public interface CategoriaRepository extends JpaRepository <Categoria, Integer>{
 
-	
-//A criação dessa classe é o suficiente para que os acesso ao banco de dados seja possível	
+	//A criação dessa classe é o suficiente para que os acesso ao banco de dados seja possível	
 
 }
